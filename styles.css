@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,600;1,300');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    color: #ee2727;
+}
+
+
+
+
+.gif {
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+body{
+
+background-image: url(./img/hamburguer-realista-caindo-no-fundo-do-quadro_79603-1043.avif);
+
+   
+}
+/*body{
+    background-image: url(./img/3OEc.gif);
+    background-repeat: no-repeat;
+    background-color: black;
+}*/
+
+
+
+
+
+ 
+.container-buttons {
+    margin: 50px 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+button {
+    background-color: #cb7575;
+    border: none;
+    border-radius: 5px;
+    color:black;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 110px;
+
+}
+button:hover {
+      opacity: 0.8;
+}
+
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    gap: 20px;
+    justify-content: center;
+    background-color: black;
+    width: 500px;
+    margin-left: 430px;
+}
+
+
+li {
+border: 2px solid #f0eef1;
+border-radius: 5px;
+padding: 5px;
+
+
+
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+p {
+    color: aliceblue;
+}
+
+
+
+.preco {
+    color: #ee2727;
+}
+
+
+.sabor {
+    color: yellow;
+}
